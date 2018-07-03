@@ -1,0 +1,30 @@
+@media all and (min-width: 1170px) {
+    .text-item{
+        padding-left: 30px;
+
+    }
+
+}
+@media all and (min-width: 992px) and (max-width: 1170px){
+    .container{
+        background-image: url(obrazy/man-2.jpg);
+        background-size: cover;
+  }
+   .text-item{
+       top: 20%;
+       left: 52%;
+   }   
+}
+@media all and (max-width: 992px){
+    .container{
+        background-image: url(obrazy/man-1.jpg);
+        justify-content: center;
+        text-align: center;
+    }
+    .text-item{
+        position: absolute;
+        top:100%;
+        color:black;
+    }
+    
+}
