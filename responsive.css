@@ -9,6 +9,7 @@
     .container{
         background-image: url(obrazy/man-2.jpg);
         background-size: cover;
+        height: 70vh;
   }
    .text-item{
        top: 20%;
@@ -20,6 +21,7 @@
         background-image: url(obrazy/man-1.jpg);
         justify-content: center;
         text-align: center;
+        height: 50vh;
     }
     .text-item{
         position: absolute;
